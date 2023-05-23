@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="pom.ExtentListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/monika bilung/OneDrive/Desktop/Selenium Tool">
+        <classes>
+            <class name="test.HomeTest"/>
+            <class name="test.ElementsTest"/>
+            <class name="test.FormsTest"/>
+            <class name="test.AlertWindowsTest"/>
+            <class name="test.DropdownTest"/>
+        </classes>
+    </test>
+</suite>
